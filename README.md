@@ -3,7 +3,7 @@
 # asdf-grpc-health-probe [![Build](https://github.com/zufardhiyaulhaq/asdf-grpc-health-probe/actions/workflows/build.yml/badge.svg)](https://github.com/zufardhiyaulhaq/asdf-grpc-health-probe/actions/workflows/build.yml) [![Lint](https://github.com/zufardhiyaulhaq/asdf-grpc-health-probe/actions/workflows/lint.yml/badge.svg)](https://github.com/zufardhiyaulhaq/asdf-grpc-health-probe/actions/workflows/lint.yml)
 
 
-[grpc-health-probe](https://github.com/aquasecurity/grpc-health-probe) plugin for the [asdf version manager](https://asdf-vm.com).
+[grpc-health-probe](https://github.com/grpc-ecosystem/grpc-health-probe) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
