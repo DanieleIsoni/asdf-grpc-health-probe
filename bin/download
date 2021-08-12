@@ -15,9 +15,3 @@ release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME-$ASDF_INSTALL_VERSION"
 
 # Download binary file to the download directory
 download_release "$ASDF_INSTALL_VERSION" "$release_file"
-
-#  copy binary file into the download directory
-cp $release_file $ASDF_DOWNLOAD_PATH
-
-# Remove the tar.gz file since we don't need to keep it
-rm "$release_file"
