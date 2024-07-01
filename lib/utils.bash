@@ -42,7 +42,7 @@ download_release() {
 
   local arch
   [ "x86_64" = "$(uname -m)" ] && arch="amd64" || arch="386"
-  [ "aarcah64" = "$(uname -m)" ] && arch="arm64"
+  [ "aarcah64" = "$(uname -m)" ] || [ "arm64" = "$(uname -m)" ] && arch="arm64"
 
   url="$GH_REPO/releases/download/v${version}/grpc_health_probe-${platform}-${arch}"
 
